@@ -1,0 +1,11 @@
+This is the process I followed to install wireshark on Ubuntu
+#Links that helped
+https://www.maketecheasier.com/using-wireshark-ubuntu/
+http://askubuntu.com/questions/74059/how-do-i-run-wireshark-with-root-privileges
+
+sudo apt-get install wireshark
+sudo dpkg-reconfigure wireshark-common
+sudo adduser cloudcowboy wireshark
+sudo which dumpcap
+sudo chmod 4711 /usr/bin/dumpcap  
+sudo chmod 4711 /usr/bin/dumpcap
